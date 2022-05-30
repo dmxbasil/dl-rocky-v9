@@ -759,8 +759,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ ➕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᴏɴᴡᴇʀ', url='https://t.me/basildmx'), 
-            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/dmx_bots')
+            InlineKeyboardButton('ᴏɴᴡᴇʀ', url='https://t.me/Haroonmc'), 
+            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/dl_ott')
             ],[      
             InlineKeyboardButton('➪ ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('➪ ᴀʙᴏᴜᴛ', callback_data='about')
@@ -1135,7 +1135,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "carb":
         R1 = await query.message.reply_photo(
-                 photo="https://te.legra.ph/file/32850b19884aaf32de699.jpg",
+                 photo="https://te.legra.ph/file/016097174e26e68f29ba6.jpg",
                  caption=script.CARB_TXT,
                  parse_mode='html'
         )
